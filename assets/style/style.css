@@ -25,7 +25,8 @@ header h4,
 header a,
 .burger,
 .fab,
-footer {
+footer,
+footer a {
   color: #ff6600;
   font-weight: bold;
 }
@@ -39,7 +40,8 @@ header h4 {
   font-weight: bold;
 }
 
-header a:hover {
+header a:hover,
+footer a:hover {
   color: #fc3903;
   font-weight: 900;
 }
@@ -123,6 +125,22 @@ header a {
 
 .main-3-section-2 {
   background-image: url("../img/self-art.jpg");
+}
+
+footer {
+  background-color: #000000;
+  margin-top: 20px;
+  -webkit-box-shadow: .2px .2px 20px #fc3903;
+          box-shadow: .2px .2px 20px #fc3903;
+}
+
+footer nav {
+  padding: 20px;
+}
+
+.footer-contact,
+.footer-fab {
+  padding: 20px;
 }
 
 @media screen and (min-width: 320px) {
