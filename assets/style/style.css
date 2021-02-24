@@ -67,7 +67,6 @@ header a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px;
 }
 
 .main-1-section-1,
@@ -99,9 +98,10 @@ header a {
 .main-1-section-1,
 .main-2-section-2,
 .main-3-section-1 {
-  height: 150px;
+  height: 600px;
   -webkit-box-shadow: .2px .2px 20px white;
           box-shadow: .2px .2px 20px white;
+  margin-bottom: 20px;
 }
 
 .main-1-section-1 h2,
@@ -123,5 +123,28 @@ header a {
 
 .main-3-section-2 {
   background-image: url("../img/self-art.jpg");
+}
+
+@media screen and (min-width: 320px) {
+  .main-2 {
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main-1,
+  .main-2,
+  .main-3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
