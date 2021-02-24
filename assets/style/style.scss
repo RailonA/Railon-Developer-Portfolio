@@ -1,4 +1,114 @@
 
+html, 
 body {
-    background-color: red;
+  width:100%;
+  margin: 0; 
+  padding: 0;
+}
+
+
+body {
+  background-color: #525252;
+}
+
+header {
+  background-image: url("../img/thomas-habr-6NmnrAJPq7M-unsplash.jpg");
+  background-size: 100% 170%;
+}
+
+
+header h1,
+header a,
+.burger, 
+footer {
+    color: #ff6600;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #fc3903;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+header a {
+ font-size: 20px;
+ font-weight: 300px ;
+}
+
+.main-1,
+.main-2,
+.main-3 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-1-section-1,
+.main-1-section-2,
+.main-2-section-1,
+.main-2-section-2,
+.main-3-section-1,
+.main-3-section-2 {
+  color: white;
+  margin: 10px;
+}
+
+.main-1-section-2,
+.main-2-section-1,
+.main-3-section-2 {
+   color: #fc3903;
+   width:400px;
+   box-shadow: .2px .2px 20px #fc3903;
+   background-size: 100% 100%;
+}
+
+.main-1-section-2:hover,
+.main-2-section-1:hover,
+.main-3-section-2:hover {
+  color: #fc3903;
+
+}
+
+.main-1-section-1,
+.main-2-section-2,
+.main-3-section-1 {
+  height: 150px;
+  // background-color: #363333;
+
+}
+
+.main-1-section-1 h2,
+.main-2-section-2 h2,
+.main-3-section-1 h2 {
+font-size: 20px;
+font-weight: 900;
+margin: 10px;
+text-decoration: underline;
+}
+
+.main-1-section-1 p,
+.main-2-section-2 p,
+.main-3-section-1 p {
+
+}
+.main-1-section-2 {
+  background-image: url("../img/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+}
+
+.main-2-section-1 {
+  background-image: url("../img/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+}
+
+.main-3-section-2 {
+  background-image: url("../img/two-cubs.jpg");
+}
+
+footer {
+
 }
