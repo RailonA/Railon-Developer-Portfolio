@@ -6,7 +6,13 @@ body {
 }
 
 body {
-  background-color: #525252;
+  background-color: #3c4047;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -15,10 +21,13 @@ header {
 }
 
 header h1,
+header h4,
 header a,
 .burger,
+.fab,
 footer {
   color: #ff6600;
+  font-weight: bold;
 }
 
 header h1 {
@@ -26,10 +35,13 @@ header h1 {
   font-weight: bold;
 }
 
+header h4 {
+  font-weight: bold;
+}
+
 header a:hover {
   color: #fc3903;
   font-weight: 900;
-  text-decoration: underline;
 }
 
 header a {
@@ -37,10 +49,18 @@ header a {
   font-weight: 300px;
 }
 
+.fab {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5px;
+}
+
 .main-1,
 .main-2,
 .main-3 {
-  height: 200px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,8 +76,8 @@ header a {
 .main-2-section-2,
 .main-3-section-1,
 .main-3-section-2 {
-  color: white;
   margin: 10px;
+  color: white;
 }
 
 .main-1-section-2,
@@ -80,6 +100,8 @@ header a {
 .main-2-section-2,
 .main-3-section-1 {
   height: 150px;
+  -webkit-box-shadow: .2px .2px 20px white;
+          box-shadow: .2px .2px 20px white;
 }
 
 .main-1-section-1 h2,
@@ -92,14 +114,14 @@ header a {
 }
 
 .main-1-section-2 {
-  background-image: url("../img/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+  background-image: url("../img/self01.jpg");
 }
 
 .main-2-section-1 {
-  background-image: url("../img/markus-spiske-cvBBO4PzWPg-unsplash.jpg");
+  background-image: url("../img/tiktoc.png");
 }
 
 .main-3-section-2 {
-  background-image: url("../img/two-cubs.jpg");
+  background-image: url("../img/self-art.jpg");
 }
 /*# sourceMappingURL=style.css.map */
