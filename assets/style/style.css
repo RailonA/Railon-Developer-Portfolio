@@ -100,7 +100,6 @@ header a {
 .main-1-section-1,
 .main-2-section-2,
 .main-3-section-1 {
-  height: 600px;
   -webkit-box-shadow: .2px .2px 20px white;
           box-shadow: .2px .2px 20px white;
   margin-bottom: 20px;
@@ -152,7 +151,7 @@ footer nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 0px;
   }
 }
