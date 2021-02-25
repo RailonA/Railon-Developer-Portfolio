@@ -28,7 +28,6 @@ body a:hover {
 header {
   background-image: url("../img/thomas-habr-6NmnrAJPq7M-unsplash.jpg");
   background-size: 100% 170%;
-  z-index: 2;
 }
 
 header h1,
