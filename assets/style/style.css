@@ -6,11 +6,9 @@ body {
 }
 
 body {
-  background-color: #3c4047;
-}
-
-body a {
-  color: white;
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
 }
 
 body a {
@@ -30,6 +28,7 @@ body a:hover {
 header {
   background-image: url("../img/thomas-habr-6NmnrAJPq7M-unsplash.jpg");
   background-size: 100% 170%;
+  z-index: 2;
 }
 
 header h1,
@@ -81,6 +80,19 @@ header a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px;
+}
+
+.main-1,
+.main-3 {
+  background-color: #242424;
+  color: white;
+}
+
+.main-2,
+.main-2 h2 {
+  background-color: white;
+  color: black;
 }
 
 .main-1-section-1,
@@ -90,7 +102,6 @@ header a {
 .main-3-section-1,
 .main-3-section-2 {
   margin: 10px;
-  color: white;
 }
 
 .main-1-section-2,
@@ -109,12 +120,19 @@ header a {
   color: #fc3903;
 }
 
+.main-2-section-2 {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: .2px .2px 20px black;
+          box-shadow: .2px .2px 20px black;
+}
+
 .main-1-section-1,
-.main-2-section-2,
 .main-3-section-1 {
+  margin-bottom: 20px;
+  border-radius: 10px;
   -webkit-box-shadow: .2px .2px 20px white;
           box-shadow: .2px .2px 20px white;
-  margin-bottom: 20px;
 }
 
 .main-1-section-1 h2,
@@ -122,20 +140,24 @@ header a {
 .main-3-section-1 h2 {
   font-size: 20px;
   font-weight: 900;
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-decoration: underline;
 }
 
 .main-1-section-2 {
   background-image: url("../img/self01.jpg");
+  border-radius: 50%;
 }
 
 .main-2-section-1 {
   background-image: url("../img/tiktoc.png");
+  border-radius: 10px;
 }
 
 .main-3-section-2 {
   background-image: url("../img/self-art.jpg");
+  border-radius: 10px;
 }
 
 footer {
@@ -155,6 +177,17 @@ footer nav {
 }
 
 @media screen and (min-width: 320px) {
+  .main-1 {
+    height: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .main-2 {
     height: 500px;
     display: -webkit-box;
@@ -163,7 +196,7 @@ footer nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 90px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
 }
@@ -174,6 +207,9 @@ footer nav {
   .main-3 {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .main-1 {
+    height: 550px;
   }
 }
 
@@ -203,6 +239,12 @@ footer nav {
   .main-3-section-1 {
     -webkit-box-shadow: .2px .2px 20px white;
             box-shadow: .2px .2px 20px white;
+    margin-bottom: 20px;
+    height: 200px;
+  }
+  .main-2-section-2 {
+    -webkit-box-shadow: .2px .2px 20px black;
+            box-shadow: .2px .2px 20px black;
     margin-bottom: 20px;
     height: 200px;
   }
