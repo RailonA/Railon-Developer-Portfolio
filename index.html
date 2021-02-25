@@ -14,20 +14,19 @@
 
   <body class="container-fluid">
   
-    <header  class="container-fluid mb-3">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="d-flex col-12">
-          <div class="col">
+    <header  class="container-fluid mb-3 ">
+      <nav class="navbar navbar-expand-lg d-column d-lg-none">
+        <div class="d-flex col">
             <a class="navbar-brand" href="#"><h1>Railon Acosta</h1></a>
-          </div>
         </div>
-        <h4>"Action is the foundational key to all success"-Pablo Picasso</h4>
+        <div class="d-flex col">
+          <h4 class="">"Action is the foundational key to all success"-Pablo Picasso</h4>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon burger">
             <i class="fas fa-bars"></i>
           </span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item ">
@@ -45,6 +44,30 @@
           </ul>
         </div>
       </nav>
+
+      <nav class="navbar navbar-expand-lg d-none d-lg-flex">
+        <div class="d-flex flex-column">
+            <a class="navbar-brand col" href="#"><h1>Railon Acosta</h1></a>
+          <h4 class="col">"Action is the foundational key to all success"-Pablo Picasso</h4>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Programming</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Art</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+
       <div class="d-flex justify-content-end  align-items-end col fab-div">
           <a href="https://www.facebook.com/RailonA.ArtStudio">
             <i class="fab fa-facebook-f"></i>
@@ -100,18 +123,18 @@
       </div>  
       </div>
 
-      <div class="container d-none flex-column" >
-        <div class="main-1 d-flex  ">          
-            <div class="main-1-section-2 col-6">
+      <div class="container d-none d-lg-block" >
+        <div class="main-1  ">          
+            <div class="main-1-section-2 col">
               <p class="d-flex justify-content-center"></p>
             </div>
-            <div class="main-1-section-1 col ">
+            <div class="main-1-section-1 col-8 ">
               <h2 class="d-flex justify-content-center col">About Me</h2>
               <p class="d-flex justify-content-center  text-center col">Hello and welcome to my portfolio page. I will be continuously updating the page as I work on new materials. I am a student of the tech world such as software development, I have always been very big in art so I will have a section where will display my work, and I am also a huge animal activist. I do plan on starting a blog so please stay tuned. </p>
             </div>
           </div> 
-        <div class="main-2 d-flex">
-          <div class="main-2-section-2 col">
+        <div class="main-2 col">
+          <div class="main-2-section-2 col-8">
             <h2 class="d-flex justify-content-center">GitHub</h2>
             <p class="d-flex justify-content-center text-center">I’m currently a student at Microverse remote full stack software developer bootcamp
               I'm currently learning HTML&CSS
@@ -122,11 +145,11 @@
             <p class="d-flex justify-content-center"></p>
           </div>
         </div> 
-        <div class="main-3 d-flex">
+        <div class="main-3 ">
           <div class="main-3-section-2 col">
             <p class="d-flex justify-content-center"></p>
           </div>
-          <div class="main-3-section-1 col">
+          <div class="main-3-section-1 col-8">
             <h2 class="d-flex justify-content-center">Art</h2>
             <p class="d-flex justify-content-center  text-center">I have always felt that art has been the way I can free my soul, 
               It has been my way to sheld myself as well as express myself. I have always loved animals, and I enjoy the simplicity of mother nature, and through art I can travel the world
