@@ -51,4 +51,11 @@ footer {
   -webkit-box-shadow: .2px .2px 20px #fc3903;
           box-shadow: .2px .2px 20px #fc3903;
 }
+
+body img {
+  margin: 20px;
+  -webkit-box-shadow: .2px .2px 20px #fc3903;
+          box-shadow: .2px .2px 20px #fc3903;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=art-style.css.map */

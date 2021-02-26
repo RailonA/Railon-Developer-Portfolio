@@ -42,7 +42,7 @@ footer a:hover {
 
 .art {
   height: 400px;
-  
+
   padding: 0;
   margin: 0;
 }
@@ -53,3 +53,9 @@ footer {
     box-shadow: .2px .2px 20px #fc3903;
     }
     
+    body img {
+      margin: 20px;
+      box-shadow: .2px .2px 20px #fc3903;
+      border-radius: 10px;
+
+    }
